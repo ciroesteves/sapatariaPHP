@@ -1,0 +1,69 @@
+html, body {
+    margin: 0; 
+    padding: 0; 
+    text-align: center; 
+    scroll-behavior: smooth;
+    color: rgb(17, 10, 1);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: radial-gradient(circle, rgb(235, 8, 8), rgb(230, 133, 6));
+}
+#icon {
+    width: 90px;
+    padding-top: 15px;
+    margin: 0;
+}
+#nome_loja {
+    text-align: center;
+    vertical-align: center;
+    width: 100%;
+    height: 30%;
+}
+h1 {
+    margin: 0;
+    font-size: 90px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+#menu {
+    display: flex;
+    justify-content: space-around;
+    height: 70%;
+}
+#esquerda_menu {
+    width: 40%;
+    height: 80%;
+}
+#esquerda_menu p {
+    padding: 40px;
+    font-size: 22px;
+}
+#direita_menu {
+    width: 40%;
+    height: 80%;
+    background: grey;
+    border-radius: 10%;  
+}
+form {
+    justify-content: space-around;
+    width: 100%;
+}
+.entrada{
+    justify-content: space-around;
+    width: 100%;
+}
+h2 {
+    font-size: 40px;
+}
+input, select {    
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+    margin: 10px;
+}
+#botao {
+    width: 50%;
+}
+.cx {
+    width: 40%;
+}

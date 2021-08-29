@@ -1,0 +1,64 @@
+html, body {
+    margin: 0; 
+    padding: 0; 
+    scroll-behavior: smooth;
+    color: rgb(17, 10, 1);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: radial-gradient(circle, rgb(235, 8, 8), rgb(230, 133, 6));
+}
+#cabeçalho{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    height: 20%;
+}
+#titulo{
+    font-size: 50px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    width: 70%;
+}
+#dados_user{
+    width: 30%;
+    text-align: center;
+}
+h1{
+    margin: 0;
+}
+p{
+    margin:15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#menu {
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+}
+#esquerda_menu {
+    justify-content: space-around;
+    margin-top: 50px;
+    text-align: center;
+    width: 40%;
+    height: 80%;
+}
+#selecao{
+    width: 90%;
+}
+.opcoes {
+    width: 100%;
+    padding: 25px;
+}
+#direita_menu {
+    justify-content: space-around;
+    margin-top: 50px;
+    text-align: center;
+    width: 60%;
+    height: 80%;
+}
+input{
+    border-radius: 10px;
+    width: 250px;
+    padding: 15px;
+}

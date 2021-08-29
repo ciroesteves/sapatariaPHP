@@ -1,0 +1,29 @@
+html, body {
+    margin: 0; 
+    padding: 0; 
+    scroll-behavior: smooth;
+    color: rgb(17, 10, 1);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: radial-gradient(circle, rgb(235, 8, 8), rgb(230, 133, 6));
+}
+h1{
+    padding: 30px;
+}
+.formulario{
+    width: 60%;
+}
+input{
+    margin: 15px;
+    width: 300px;
+}
+label{
+    padding: 10px 30px;
+}
+.botao_voltar{
+    padding: 10px 80px;
+    margin: 10px 100px;
+    width: 100px;
+    border-radius: 15px;
+}
